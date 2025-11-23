@@ -1,3 +1,7 @@
 spring:
   application:
     name: chatbot
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      base-url: https://api.groq.com/openai
